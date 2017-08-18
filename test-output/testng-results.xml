@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1278157" started-at="2017-08-18T09:52:34Z" finished-at="2017-08-18T10:13:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1278157" started-at="2017-08-18T09:52:34Z" finished-at="2017-08-18T10:13:53Z">
+      <class name="CreateReqsn.CreateNewRequisitionTest">
+        <test-method status="PASS" signature="initialioseBrowser()[pri:0, instance:CreateReqsn.CreateNewRequisitionTest@399c4be1]" name="initialioseBrowser" is-config="true" duration-ms="18925" started-at="2017-08-18T15:22:15Z" finished-at="2017-08-18T15:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialioseBrowser -->
+        <test-method status="PASS" signature="beforeSu()[pri:0, instance:CreateReqsn.CreateNewRequisitionTest@399c4be1]" name="beforeSu" is-config="true" duration-ms="578" started-at="2017-08-18T15:22:34Z" depends-on-methods="common_Function.WebDriverPass.initialioseBrowser" finished-at="2017-08-18T15:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSu -->
+        <test-method status="PASS" signature="createnewreq()[pri:1, instance:CreateReqsn.CreateNewRequisitionTest@399c4be1]" name="createnewreq" duration-ms="1277951" started-at="2017-08-18T15:22:34Z" finished-at="2017-08-18T15:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewreq -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:CreateReqsn.CreateNewRequisitionTest@399c4be1]" name="afterMethod" is-config="true" duration-ms="186" started-at="2017-08-18T15:43:52Z" finished-at="2017-08-18T15:43:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createnewreq status=SUCCESS method=CreateNewRequisitionTest.createnewreq()[pri:1, instance:CreateReqsn.CreateNewRequisitionTest@399c4be1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSu()[pri:0, instance:CreateReqsn.CreateNewRequisitionTest@399c4be1]" name="afterSu" is-config="true" duration-ms="22" started-at="2017-08-18T15:43:53Z" finished-at="2017-08-18T15:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:CreateReqsn.CreateNewRequisitionTest@399c4be1]" name="closeBrowser" is-config="true" duration-ms="876" started-at="2017-08-18T15:43:53Z" depends-on-methods="CreateReqsn.CreateNewRequisitionTest.afterSu" finished-at="2017-08-18T15:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CreateReqsn.CreateNewRequisitionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
